@@ -85,10 +85,12 @@ a:hover {
     padding: 20px;
     font-size: 1rem;
     text-align: justify;
+    
 }
 
 li {
     padding: 10px;
+    
 }
 
 #RM {
@@ -106,6 +108,17 @@ footer {
     margin: 30px;
     text-align: right;
     font-style: italic
+}
+.Redes{
+    
+    text-align: right;
+    display: inline-block;
+    transition: 0.25s;
+    
+}
+.Redes:hover{
+transform: scale(1.2);
+background-color:rgb(201, 84, 216);
 }
 
 /*responsive*/
