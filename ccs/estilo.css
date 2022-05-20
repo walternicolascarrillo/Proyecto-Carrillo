@@ -17,7 +17,8 @@
     border: rgb(11, 91, 240) 5px outset;
     background-color: rgb(43, 204, 70);
     border-radius: 10px;
-    box-shadow: 2PX 4px 15px 0 rgb(0, 0, 0);
+    box-shadow: 2PX 4px 15px 0 rgb(0, 0, 0)
+
 
 }
 
@@ -78,6 +79,7 @@ a:hover {
     text-align: justify;
 
 
+
 }
 
 .Contenido {
@@ -85,6 +87,7 @@ a:hover {
     padding: 20px;
     font-size: 1rem;
     text-align: justify;
+
     
 }
 
@@ -107,7 +110,7 @@ footer {
 
     margin: 30px;
     text-align: right;
-    font-style: italic
+    font-style: italic;
 }
 .Redes{
     

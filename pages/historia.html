@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="shortcut icon" href="assets/img/favicon-32x32.png">
 	<title>Historia</title>
 	<link rel="stylesheet" href="../ccs/estilo.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+
 </head>
+
 <body>
-	
+
 	<header>
-		<a href="../index.html"><img class="Logo" src=../assets/img/Logo.png alt="Logo"></a>
+		<a href="../index.html"><img class="img-fluid" class="Logo" src=../assets/img/Logo.png alt="Logo"></a>
 		<nav>
 			<ul class="menu">
 
@@ -21,51 +25,90 @@
 				<li><a href="estadio.html">Estadio</a></li>
 				<li><a href="palmares.html">Palmares</a></li>
 				<li><a href="contacto.html">Contacto</a></li>
-				</ul>
-			
+			</ul>
+
 		</nav>
 	</header>
-	
+
 	<section>
 		<article class="Contenido">
 			<h2>Presidentes</h2>
-            <ol>
+			<ol>
 				<li>Santiago Bernabeu</li>
 				<li>Florentino Perez</li>
-				</ol>
-			
+			</ol>
+
 		</article>
 	</section>
 	<section>
-		<article class="Tabla">
-            <h2>Simbolos</h2>
-            <table border="2" cellpadding="3" cellspacing="0.5">
-				<tr>
-					<th>1900-08</th>
-					<th>1908-20</th>
-					<th>1920-31</th>
-					<th>1931-40</th>
-					<th>1940-2001</th>
-					<th>2001-Act.</th>
-				</tr>
-				<tr>
-					<td><img src=../assets/img/escudo1900-08.png alt="escudo 1900-08"></td>
-                    <td><img src=../assets/img/Escudo1908-20.png alt="escudo 1908-20"></td>
-					<td><img src=../assets/img/escudo1920-31.png alt="escudo 1920-31"></td>
-					<td><img src=../assets/img/escudo1931-40.png alt="escudo 1931-40"></td>
-					<td><img src=../assets/img/escudo1940-2001.png alt="escudo 1940-2001"></td>
-					<td><img src=../assets/img/escudo2001-Act..png alt="escudo 2001-Act."></td>
-                    </tr>
-
-			</table>
-		</article>
+		<h1>Escudos a lo largo de la historia del real madrid</h1>
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+		<div class="col">
+		  <div class="card">
+			<img src="../assets/img/escudo1900-08.png" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Escudo 1900-1908</h5>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card">
+			<img src="../assets/img/Escudo1908-20.png" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Escudo 1908-1920</h5>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card">
+			<img src="../assets/img/escudo1920-31.png" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Escudo 1920-1931</h5>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card">
+			<img src="../assets/img/escudo1931-40.png" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Escudo 1931-1940</h5>
+			<!--  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+			<div class="card">
+			  <img src="../assets/img/escudo1940-2001.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Escudo 1940-2001</h5>
+			  <!--  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+			  </div>
+			</div>
+		  </div>
+		  <div class="col">
+			<div class="card">
+			  <img src="../assets/img/escudo2001-Act..png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Escudo 2001-Actualidad</h5>
+			  <!--  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+			  </div>
+			</div>
+		  </div>
+	  </div>
 	</section>
-    	<footer id="RM">
-			<p>Walter Nicolas Carrillo</p>
-			<p>Siganos en Redes Sociales</p>
-			<p><a href="https://facebook.com">Facebook</a></p>
-			<p><a href="https://twitter.com">Twitter</a></p>
-			<p><a href="https://instagram.com">Instagram</a></p>
+	<footer id="RM">
+		<p>Walter Nicolas Carrillo</p>
+		<p>Siganos en Redes Sociales</p>
+		<p><a href="https://facebook.com">Facebook</a></p>
+		<p><a href="https://twitter.com">Twitter</a></p>
+		<p><a href="https://instagram.com">Instagram</a></p>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+		integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+		integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+	</script>
 </body>
+
 </html>
