@@ -16,15 +16,37 @@
 
 	<header>
 		<a href="../index.html"><img class="img-fluid" class="Logo" src=../assets/img/Logo.png alt="Logo"></a>
-		<nav>
-			<ul class="menu">
-
-				<li><a href="historia.html">Historia</a></li>
-				<li><a href="estadio.html">Estadio</a></li>
-				<li><a href="palmares.html">Palmares</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
+		<div>
+			<nav class="navbar navbar-dark bg-dark">
+				<div class="container-fluid">
+				  <a class="navbar-brand" href="#">Menu</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="historia.html">Historia</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="estadio.html">Estadio</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="palmares.html">Palmares</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+					  </li>
+					 
+					</ul>
+					<form class="d-flex" role="search">
+					  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					  <button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				  </div>
+				</div>
+			  </nav>
+			</div>
 	</header>
 
 	<section>
@@ -44,7 +66,7 @@
 				</div>
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">Fecha de Nacimiento</label>
-					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="01/01/2001">
+					<input  class="form-control" id="exampleFormControlInput1" placeholder="01/01/2001">
 				</div>
 				<div class="mb-3">
 					<label for="exampleFormControlTextarea1" class="form-label">Porque Participas del Sorteo</label>

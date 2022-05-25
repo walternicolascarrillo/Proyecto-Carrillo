@@ -37,6 +37,11 @@
 
 
 }
+.escudos{
+    max-width: 40rem;
+    max-height: 25rem;
+    margin-bottom: 50px;
+}
 
 a {
     list-style-type: none;
@@ -127,7 +132,7 @@ background-color:rgb(201, 84, 216);
 /*responsive*/
 @media only screen and (max-width:780px) {
  
-/*    .Menu_Responsive {
+    .Menu_Responsive {
        
         display: inline-block;
         text-decoration: none;
@@ -139,7 +144,7 @@ background-color:rgb(201, 84, 216);
         height: 100%;
         margin-bottom: 80px;
     }
-*/
+
     .Menu_Responsive_Li {
         box-sizing: border-box;
         text-align: left;
@@ -148,7 +153,7 @@ background-color:rgb(201, 84, 216);
         list-style: none;
 
     }
-  /*  .Menu_Responsive a {
+    .Menu_Responsive a {
         list-style-type: none;
         color: rgb(0, 0, 0);
         text-decoration: none;
