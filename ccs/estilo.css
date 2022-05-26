@@ -14,7 +14,7 @@
     text-align: left;
     margin: 20px;
     padding: 10px;
-    border: rgb(11, 91, 240) 5px outset;
+    border: rgb(38, 80, 160) 5px outset;
     background-color: rgb(43, 204, 70);
     border-radius: 10px;
     box-shadow: 2PX 4px 15px 0 rgb(0, 0, 0)
@@ -65,8 +65,9 @@ a:hover {
 
 #Info {
     margin: 50px 40px 20px 20px;
-    font-size: .7rem;
+    font-size: 1rem;
     text-align: justify;
+    display: block;
 }
 
 #Formulario {
@@ -181,7 +182,7 @@ footer {
 
 /*grid*/
 .grid-container {
-    background: radial-gradient(circle, rgb(87, 136, 209), rgb(255, 255, 255));
+    background: radial-gradient(circle, rgb(196, 192, 192), rgb(255, 255, 255));
     display: grid;
     grid-template-rows: 1fr 0.1fr 1fr minmax(calc(1fr - 0.1fr - 1fr - 0.5fr), max-content) 0.5fr;
     grid-template-columns:repeat(2,1fr);
