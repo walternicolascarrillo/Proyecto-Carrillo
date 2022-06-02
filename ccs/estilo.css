@@ -6,7 +6,8 @@
 .Logo {
     max-width: 25rem;
     max-height: 25rem;
-    
+
+
 }
 
 .menu {
@@ -18,8 +19,6 @@
     background-color: rgb(43, 204, 70);
     border-radius: 10px;
     box-shadow: 2PX 4px 15px 0 rgb(0, 0, 0)
-
-
 }
 
 .Menu_Responsive {
@@ -30,6 +29,18 @@
 
 
 }
+.palmares{
+    background-color: rgb(196, 192, 192);
+    border: solid 1px #000000;
+    text-align: left;
+    font-family: 'Gentium Plus', serif;
+
+    
+}
+.palmares:hover{
+    transform: scale(1.2);
+}
+
 
 .Tabla {
     margin: 30px 20px;
@@ -37,7 +48,8 @@
 
 
 }
-.escudos{
+
+.escudos {
     max-width: 40rem;
     max-height: 25rem;
     margin-bottom: 50px;
@@ -53,6 +65,12 @@ a {
 a:hover {
     color: rgb(255, 255, 255);
     text-decoration: underline;
+    transform: skew(-25deg);
+    background-color: rgb(41, 48, 145);
+    transition: .2s;
+    transform: translate(20px, 0px);
+   
+
 }
 
 
@@ -94,12 +112,12 @@ a:hover {
     font-size: 1rem;
     text-align: justify;
 
-    
+
 }
 
 li {
     padding: 10px;
-    
+
 }
 
 #RM {
@@ -118,23 +136,26 @@ footer {
     text-align: right;
     font-style: italic;
 }
-.Redes{
-    
+
+.Redes {
+
     text-align: right;
     display: inline-block;
     transition: 0.25s;
-    
+    transform: skewY(-25deg);
+
 }
-.Redes:hover{
-transform: scale(1.2);
-background-color:rgb(201, 84, 216);
+
+.Redes:hover {
+    transform: scale(1.2);
+    
 }
 
 /*responsive*/
 @media only screen and (max-width:780px) {
- 
+
     .Menu_Responsive {
-       
+
         display: inline-block;
         text-decoration: none;
         border: rgb(11, 91, 240) 5px outset;
@@ -154,18 +175,21 @@ background-color:rgb(201, 84, 216);
         list-style: none;
 
     }
+
     .Menu_Responsive a {
         list-style-type: none;
         color: rgb(0, 0, 0);
         text-decoration: none;
-    
+
     }
-    
+
     .Menu_Responsive a:hover {
         color: rgb(255, 255, 255);
         text-decoration: underline;
     }
+
     */
+
     /*.menu {
         display: none;
     }
@@ -174,9 +198,10 @@ background-color:rgb(201, 84, 216);
         font-size: 1fr;
         margin-top: 50px;
     }
-footer {
-    margin-top: 50px;
-}
+
+    footer {
+        margin-top: 50px;
+    }
 
 }
 
@@ -185,7 +210,7 @@ footer {
     background: radial-gradient(circle, rgb(196, 192, 192), rgb(255, 255, 255));
     display: grid;
     grid-template-rows: 1fr 0.1fr 1fr minmax(calc(1fr - 0.1fr - 1fr - 0.5fr), max-content) 0.5fr;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
         "header header"
         "section section"
