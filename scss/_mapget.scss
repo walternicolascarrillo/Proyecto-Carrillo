@@ -1,0 +1,24 @@
+/*aca arranca el desafio de Sass 2 y Seo*/
+
+$mapa1: (colorsito: rgb(32, 36, 236),
+    fondo: rgba(33, 165, 189, 0.521),
+    delineado: black,
+
+);
+
+$mapa2: (borde: 20px,
+    alto: 100%,
+
+
+);
+
+.pie {
+    color: map-get($mapa1, colorsito);
+    background-color: map-get($mapa1, fondo);
+    border-radius: map-get($mapa2, borde);
+    border: map-get($mapa1, delineado) 1px solid;
+}
+
+
+
+/*aca termina el desafio de Sass 2 y Seo*/

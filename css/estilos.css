@@ -1,22 +1,58 @@
+/*aca arranca el desafio de Sass 2 y Seo*/
+/* line 15, ../Proyecto Carrillo/scss/_mapget.scss */
+.pie, .pie--nombre {
+  color: #2024ec;
+  background-color: rgba(33, 165, 189, 0.521);
+  border-radius: 20px;
+  border: black 1px solid;
+}
+
+/*aca termina el desafio de Sass 2 y Seo*/
+/* line 1, ../Proyecto Carrillo/scss/_extend.scss */
+.pie--nombre {
+  background-color: black;
+}
+
 /*responsive*/
 /*.menu {
         display: none;
     }
 */
 /*grid*/
-/* line 14, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 17, ../Proyecto Carrillo/scss/estilos.scss */
 * {
   padding: 0;
   margin: 0;
 }
 
-/* line 19, ../Proyecto Carrillo/scss/estilos.scss */
+@media (max-width: 1500px) {
+  /* line 22, ../Proyecto Carrillo/scss/estilos.scss */
+  .nombre {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 780px) {
+  /* line 22, ../Proyecto Carrillo/scss/estilos.scss */
+  .nombre {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  /* line 22, ../Proyecto Carrillo/scss/estilos.scss */
+  .nombre {
+    flex-direction: column;
+  }
+}
+
+/* line 40, ../Proyecto Carrillo/scss/estilos.scss */
 .Logo {
   max-width: 25rem;
   max-height: 25rem;
 }
 
-/* line 24, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 45, ../Proyecto Carrillo/scss/estilos.scss */
 .menu {
   text-align: left;
   margin: 20px;
@@ -27,14 +63,14 @@
   box-shadow: 2PX 4px 15px 0 black;
 }
 
-/* line 33, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 54, ../Proyecto Carrillo/scss/estilos.scss */
 .menu li {
   display: inline;
   margin: 10px;
   padding: 10px;
 }
 
-/* line 40, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 61, ../Proyecto Carrillo/scss/estilos.scss */
 .Menu_Responsive {
   min-width: 780px;
   display: none;
@@ -42,33 +78,33 @@
   margin: 10px;
 }
 
-/* line 47, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 68, ../Proyecto Carrillo/scss/estilos.scss */
 .Tabla {
   margin: 30px 20px;
   padding: 10px;
 }
 
-/* line 52, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 73, ../Proyecto Carrillo/scss/estilos.scss */
 .escudos {
   max-width: 40rem;
   max-height: 25rem;
   margin-bottom: 50px;
 }
 
-/* line 58, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 79, ../Proyecto Carrillo/scss/estilos.scss */
 a {
   list-style-type: none;
   color: black;
   text-decoration: none;
 }
 
-/* line 63, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 84, ../Proyecto Carrillo/scss/estilos.scss */
 a:hover {
   color: white;
   text-decoration: underline;
 }
 
-/* line 69, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 90, ../Proyecto Carrillo/scss/estilos.scss */
 #Info {
   margin: 50px 40px 20px 20px;
   font-size: 1rem;
@@ -76,7 +112,7 @@ a:hover {
   display: block;
 }
 
-/* line 76, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 97, ../Proyecto Carrillo/scss/estilos.scss */
 #Formulario {
   margin: 30px 20px 20px 20px;
   padding: 20px;
@@ -85,13 +121,13 @@ a:hover {
   flex-direction: column;
 }
 
-/* line 83, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 104, ../Proyecto Carrillo/scss/estilos.scss */
 #Formulario div {
   margin: 10px;
   text-align: justify;
 }
 
-/* line 89, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 110, ../Proyecto Carrillo/scss/estilos.scss */
 .Contenido {
   margin: 20px 40px 40px 20px;
   padding: 20px;
@@ -99,22 +135,22 @@ a:hover {
   text-align: justify;
 }
 
-/* line 96, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 117, ../Proyecto Carrillo/scss/estilos.scss */
 li {
   padding: 10px;
 }
 
-/* line 100, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 121, ../Proyecto Carrillo/scss/estilos.scss */
 #RM {
   color: #eeff00;
 }
 
-/* line 104, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 125, ../Proyecto Carrillo/scss/estilos.scss */
 header {
   background-color: #c4c0c0;
 }
 
-/* line 108, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 131, ../Proyecto Carrillo/scss/estilos.scss */
 footer {
   background-image: url(../assets/img/Fondo1.jpg);
   background-size: contain;
@@ -123,20 +159,20 @@ footer {
   font-style: italic;
 }
 
-/* line 116, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 139, ../Proyecto Carrillo/scss/estilos.scss */
 .Redes {
   text-align: right;
   display: inline-block;
   transition: 0.25s;
 }
 
-/* line 121, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 144, ../Proyecto Carrillo/scss/estilos.scss */
 .Redes:hover {
   transform: scale(1.2);
   background-color: #2a4ca8;
 }
 
-/* line 127, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 152, ../Proyecto Carrillo/scss/estilos.scss */
 .grid-container {
   background: radial-gradient(circle, #c4c0c0, white);
   display: grid;
@@ -145,23 +181,23 @@ footer {
   grid-template-areas: "header header" "section section" "footer footer";
 }
 
-/* line 134, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 159, ../Proyecto Carrillo/scss/estilos.scss */
 .grid-container header {
   grid-area: header;
 }
 
-/* line 138, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 163, ../Proyecto Carrillo/scss/estilos.scss */
 .grid-container section {
   grid-area: section;
 }
 
-/* line 142, ../Proyecto Carrillo/scss/estilos.scss */
+/* line 167, ../Proyecto Carrillo/scss/estilos.scss */
 .grid-container footer {
   grid-area: footer;
 }
 
 @media only screen and (max-width: 780px) {
-  /* line 148, ../Proyecto Carrillo/scss/estilos.scss */
+  /* line 173, ../Proyecto Carrillo/scss/estilos.scss */
   .Menu_Responsive {
     display: inline-block;
     text-decoration: none;
@@ -173,18 +209,18 @@ footer {
     height: 100%;
     margin-bottom: 80px;
   }
-  /* line 159, ../Proyecto Carrillo/scss/estilos.scss */
+  /* line 184, ../Proyecto Carrillo/scss/estilos.scss */
   .Menu_Responsive a {
     list-style-type: none;
     color: black;
     text-decoration: none;
   }
-  /* line 164, ../Proyecto Carrillo/scss/estilos.scss */
+  /* line 189, ../Proyecto Carrillo/scss/estilos.scss */
   .Menu_Responsive a:hover {
     color: white;
     text-decoration: underline;
   }
-  /* line 171, ../Proyecto Carrillo/scss/estilos.scss */
+  /* line 196, ../Proyecto Carrillo/scss/estilos.scss */
   .Menu_Responsive_Li {
     box-sizing: border-box;
     text-align: left;
@@ -192,12 +228,12 @@ footer {
     padding: 5px;
     list-style: none;
   }
-  /* line 180, ../Proyecto Carrillo/scss/estilos.scss */
+  /* line 205, ../Proyecto Carrillo/scss/estilos.scss */
   #Info {
     font-size: 1fr;
     margin-top: 50px;
   }
-  /* line 186, ../Proyecto Carrillo/scss/estilos.scss */
+  /* line 211, ../Proyecto Carrillo/scss/estilos.scss */
   footer {
     margin-top: 50px;
   }

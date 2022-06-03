@@ -1,0 +1,24 @@
+$pc: 1500px;
+$tablet: 780px;
+$mobile: 425px;
+
+
+@mixin responsive ($medida) {
+    @if $medida==pc {
+        @media (max-width: $pc) {
+            @content;
+        }
+    }
+
+    @else if $medida==tablet {
+        @media (max-width: $tablet) {
+            @content;
+        }
+    }
+
+    @else if $medida==mobile {
+        @media (max-width: $mobile) {
+            @content;
+        }
+    }}
+    
