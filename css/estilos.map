@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../scss/estilos.scss"
+	],
+	"sourcesContent": [
+		"ul{\r\n    list-style: none;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,EAAE,CAAA;EACE,UAAU,EAAE,IAAI;CACnB"
+}
