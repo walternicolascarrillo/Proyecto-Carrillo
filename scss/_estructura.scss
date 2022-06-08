@@ -1,0 +1,59 @@
+/*estructura general*/
+.grid-container {
+    background: radial-gradient(circle, rgb(196, 192, 192), rgb(255, 255, 255));
+    display: grid;
+    grid-template-rows: 1fr 0.1fr 1fr minmax(calc(1fr - 0.1fr - 1fr - 0.5fr), max-content) 0.5fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header header""section section""footer footer";
+
+    header {
+        grid-area: header;
+    }
+
+    section {
+        grid-area: section;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}
+
+/*parte responsive*/
+@media only screen and (max-width:780px) {
+    .Menu_Responsive {
+        display: inline-block;
+        text-decoration: none;
+        border: rgb(11, 91, 240) 5px outset;
+        background-color: $background_color_1;
+        border-radius: 10px;
+        box-shadow: 2PX 4px 15px 0 rgb(0, 0, 0);
+        width: 100%;
+        height: 100%;
+        margin-bottom: 80px;
+
+        a {
+            list-style-type: none;
+            color: $color_1;
+            text-decoration: none;
+
+            &:hover {
+                color: $color_2;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .Menu_Responsive_Li {
+        box-sizing: border-box;
+        text-align: left;
+        width: 30px;
+        padding: 5px;
+        list-style: none;
+    }
+
+    #Info {
+        font-size: 1fr;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,22 @@
+.Logo {
+    max-width: 25rem;
+    max-height: 25rem;
+}
+
+.palmares {
+    background-color: $background_color_2;
+    border: solid 1px #000000;
+    text-align: left;
+    font-family: $font_family_1;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.Contenido {
+    margin: 20px 40px 40px 20px;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: justify;
+}

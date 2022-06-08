@@ -1,0 +1,25 @@
+a {
+    list-style-type: none;
+    color: $color_1;
+    text-decoration: none;
+
+    &:hover {
+        color: $color_2;
+        text-decoration: underline;
+        transform: skew(-25deg);
+        background-color: $background_color_3;
+        transition: .2s;
+        transform: translate(20px, 0px);
+    }
+}
+
+.Redes {
+    text-align: right;
+    display: inline-block;
+    transition: 0.25s;
+    transform: skewY(-25deg);
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
