@@ -5,17 +5,7 @@ a {
   text-decoration: none;
 }
 
-/* line 6, ../Proyecto Carrillo/scss/_links.scss */
-a:hover {
-  color: white;
-  text-decoration: underline;
-  transform: skew(-25deg);
-  background-color: #293091;
-  transition: .2s;
-  transform: translate(20px, 0px);
-}
-
-/* line 16, ../Proyecto Carrillo/scss/_links.scss */
+/* line 9, ../Proyecto Carrillo/scss/_links.scss */
 .Redes {
   text-align: right;
   display: inline-block;
@@ -23,9 +13,20 @@ a:hover {
   transform: skewY(-25deg);
 }
 
-/* line 22, ../Proyecto Carrillo/scss/_links.scss */
+/* line 15, ../Proyecto Carrillo/scss/_links.scss */
+.Redes a:hover {
+  color: white;
+}
+
+/* line 20, ../Proyecto Carrillo/scss/_links.scss */
 .Redes:hover {
   transform: scale(1.2);
+  color: white;
+  text-decoration: underline;
+  transform: skew(-25deg);
+  background-color: #0400ff;
+  transition: .2s;
+  transform: translate(20px, 0px);
 }
 
 /*estructura general*/
@@ -145,7 +146,7 @@ a:hover {
 
 /* line 24, ../Proyecto Carrillo/scss/_id.scss */
 #RM {
-  color: #eeff00;
+  color: white;
 }
 
 /*responsive*/
